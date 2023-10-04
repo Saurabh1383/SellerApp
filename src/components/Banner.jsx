@@ -12,7 +12,6 @@ import { BiPlus } from "react-icons/bi";
 
 import { bannerData } from "../data";
 
-
 const Banner = () => {
   return (
     <>
