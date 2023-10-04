@@ -14,18 +14,7 @@ const Header = () => {
         {
           isDesktop ? (
           <>
-            <ButtonGroup as='nav' variant='link' spacing='5'>
-                {
-                  ['Home', 'Features', 'About Us'].map((item)=>(
-                    <Button fontSize='16px' key={item}>{item}</Button>
-                    ))
-                }
-            </ButtonGroup>
 
-            <HStack>
-              <Button size='sm' variant='solid'>Contact</Button>
-              <Button size='sm' variant='outline'>Sign up</Button>
-            </HStack>
           </>
           ) : (
             <NavMobile />
